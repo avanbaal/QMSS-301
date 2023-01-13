@@ -96,12 +96,3 @@ upload_file = files.upload()
 
 from google.colab import drive
 
-# When executeing the command, a pop-up window will ask for your permisson for Colab to access your Google Drive
-drive.mount('/content/drive')
-
-"""After `mounting` the data, all data from `MyDrive` is available under the `drive` drop down list
-
-# Other Resources
-
-[Colab Features Overview](https://colab.research.google.com/notebooks/basic_features_overview.ipynb)
-"""
